@@ -1,0 +1,3 @@
+[submodule "stevenhoward.net/stevenhoward.net/themes/hugo-profile"]
+	path = stevenhoward.net/stevenhoward.net/themes/hugo-profile
+	url = https://github.com/gurusabarish/hugo-profile.git
