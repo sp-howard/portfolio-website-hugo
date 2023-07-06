@@ -1,0 +1,46 @@
+#hero h2 {
+    font-size: clamp(80px, 8vw, 80px);
+    color: rgb(0, 140, 255) !important;
+}
+
+#about ul li::before {
+    content: "▸";
+    color: var(--primary-color);
+    position: absolute;
+    left: 0px;
+}
+
+#projects .badge {
+    font-weight: 400;
+}
+
+.verify {
+    font-style: italic;
+    color: var(--text-secondary-color);
+    font-size: 1.2rem;
+}
+
+#achievements .card-text {
+    margin-top: 1rem;;
+}
+
+#achievements .card h5 {
+    min-height: 2.5rem;
+}
+
+img.card-img-top {
+    padding: 1rem;
+}
+
+.card-footer, i {
+    font-size: 1.7rem;
+}
+
+#hero a.btn.social-icon {
+    font-size: 1.4rem;
+}
+
+.card-body h5 {
+    padding-top: .3rem;
+    padding-bottom: .3rem;
+}
