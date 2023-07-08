@@ -1,0 +1,98 @@
+body {
+  font-family: Garamond;
+  background-color: #ddd;
+  font-size: 14pt;
+}
+
+#resume-page {
+  width: 1000px;
+  margin-top: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2em;
+  background-color: white;
+  padding: 3em;
+  box-shadow: 0px 0px 0.5em;
+}
+
+h1 {
+  text-align: center;
+  font-size: 26pt;
+  line-height: 0;
+}
+
+h2 {
+  font-size: 14pt;
+  line-height: 0;
+  padding-top: 0.5em;
+}
+
+hr {
+  border-top: 1px;
+}
+
+#title-subheading {
+  text-align: center;
+  font-size: 18pt;
+  padding-bottom: 0.2em;
+}
+
+.windings {
+  font-family: wingdings;
+}
+
+.heading {
+  font-weight: bold;
+}
+
+.subheading {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.left-align {
+  float: right;
+  font-weight: normal;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+li {
+  list-style-type: square;
+  padding-bottom: 0.3em;
+}
+
+.certnum {
+  color: #999;
+}
+
+p {
+  text-indent: 3em;
+}
+#certs {
+  line-height: 1.1em;
+}
+
+#skills {
+  line-height: 1.3em;
+}
+
+#view_count_line {
+  text-align: center;
+}
+
+#view_count {
+  font-weight: bold;
+  display: inline-block;
+  font-size: 16pt;
+}
+
+#view_count_tag {
+  text-align: center;
+  margin-top: -0.5rem;
+  margin-bottom: 1.5rem;
+  padding: 0.25rem;
+  font-size: 14pt;
+}

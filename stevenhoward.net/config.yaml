@@ -127,9 +127,9 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "#"
-      download: true
-      newPage: false
+      url: "/resume/index.html"
+      download: false
+      newPage: true
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
