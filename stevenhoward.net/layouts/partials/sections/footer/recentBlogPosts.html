@@ -3,7 +3,7 @@
     {{ $recentPostsPath := .Site.Params.footer.recentPosts.path | default "blogs" }}
     {{ $recentPostsCount := .Site.Params.footer.recentPosts.count | default 3 }}
     {{ $recentPosts := where .Site.RegularPages "Section" $recentPostsPath | first $recentPostsCount }}
-    <div class="h3 text-center text-secondary py-3">
+    <div class="h3 text-center text-secondary py-3 recent-posts-title">
         {{ .Site.Params.footer.recentPosts.title | default "Recent Posts" }}
     </div>
     <div class="row justify-content-center">

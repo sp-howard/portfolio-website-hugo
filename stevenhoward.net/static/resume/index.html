@@ -2,105 +2,108 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Steven Howard's Resume</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="visitcount.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Steven Howard's Resume</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- <link rel="stylesheet" href="{{ .Site.Params.staticPath }}/bootstrap-5/css/bootstrap.min.css" media="all"> -->
+  <script src="visitcount.js"></script>
 </head>
 
 <body>
   <div id="resume-page">
+
+    <!-- HEADING -->
     <h1>Steven Howard</h1>
-    <div id="title-subheading">stevenphoward@gmail.com <span class="windings">w</span> (559) 308-4897 <span class="windings">w</span> Visalia, CA</div>
+    <div id="title-subheading">stevenphoward@gmail.com <span class="windings">w</span> (559) 308-4897 <span
+        class="windings">w</span> Visalia, CA</div>
+    <div id="title-subheading-2">GitHub - <u><a href="https://github.com/sp-howard">github.com/sp-howard</a></u> <span
+        class="windings">w</span> Portfolio
+      - <u><a href="https://stevenhoward.net"><b>stevenhoward.net</b></a></u> <span class="windings">w</span> LinkedIn -
+      <u><a href="https://linkedin.com/in/sp-howard">linkedin.com/in/sp-howard</a></u> </div>
     <hr>
+
+    <!-- SUMMARY -->
     <h2>SUMMARY</h2>
     <hr>
-    <p>Network Administrator with 6+ years of experience in Cisco switch and router configuration, Microsoft 365 and Windows Server administration, scripting, and technical documentation. Proven track record of supporting end users, enhancing network security, and automating IT processes. Experience in health care, finance, government, small business, and non-profit organizations.</p>
+    <p>Cloud Engineer with 7 years of experience in network and server administration, Microsoft 365, scripting, and
+      technical documentation. Passionate about automating IT infrastructure and processes. Proven track record of
+      supporting end-users, enhancing network security, and ensuring network and application availability. </p>
+
+    <!-- PROJECTS -->
+    <h2>PROJECTS</h2>
+    <hr>
+    <div class="heading">Cloud Resume Challenge</div>
+    <div><u><a
+          href="https://stevenhoward.net/blogs/cloud-resume-challenge">https://stevenhoward.net/blogs/cloud-resume-challenge</u></a>
+    </div>
+    <p>Static portfolio website hosted on AWS S3, with serverless components including API Gateway, Lambda, and
+      DynamoDB. Utilizes Route53, Amazon Certificate Manager, and CloudFront. Infrastructure was converted to IaC using
+      Terraform and implemented via CI/CD pipeline using GitHub Actions with Cypress end-to-end testing.</p>
+
+    <!-- CERTIFICATIONS -->
     <h2>CERTIFICATIONS</h2>
     <hr>
     <ul id="certs">
-      <li>Cisco Certified Network Associate (CCNA) - <span class="certnum">NYQDNWFPKDEQ16WG</span> <span class="left-align">February 2020</span></li>
-      <li>AWS Cloud Practitioner - <span class="certnum">K6H5CCR2QNRQ1LKC</span> <span class="left-align">January 2022</span></li>
-      <li>CompTIA Project+ - <span class="certnum">89MWG7XQF14Q18S3</span> <span class="left-align">October 2021</span></li>
-      <li>CompTIA Security+ - <span class="certnum">EP71PTLPQPEQ16WQ</span> <span class="left-align">September 2020</span></li>
-      <li>CompTIA Network+ - <span class="certnum">Y2Q7TQXPPG141MK4</span> <span class="left-align">April 2018</span></li>
-      <li>CompTIA A+ - <span class="certnum">NWYHN9P3FCE4YNMM</span> <span class="left-align">December 2016</span></li>
-    </ul>
-    <h2>WORK EXPERIENCE</h2>
-    <hr>
-    <div class="heading">Family HealthCare Network <span class="left-align">June 2021 – Present</span></div>
-    <div class="subheading">Network Administrator <span class="left-align">Visalia, CA</span></div>
-    <ul>
-      <li>Cisco Switch Configuration and Automation – Configured and installed Cisco switches and routers, replacing
-        end-of-life equipment, as well as standing up new worksites. Created Python script to automate the generation
-        of switch configurations.</li>
-      <li>Microsoft 365 – Instrumental in migration to Exchange Online. Designed, built, and maintained organization’s
-        Intranet and business intelligence dashboard in SharePoint. Responsible for initial testing, licensing, deployment,
-        and continued support for all Microsoft 365 applications.</li>
-      <li>Software Deployment – Revolutionized application deployment by fully utilizing PDQ to its full potential,
-        completely automating previously manual overnight application updates.</li>
-      <li>Subject Matter Expert for Cisco Unified Communications Manager.</li>
-    </ul>
-    <div class="heading">Valley Republic Bank <span class="left-align">May 2019 – May 2021</span></div>
-    <div class="subheading">Network Administrator <span class="left-align">Bakersfield, CA</span></div>
-    <ul>
-      <li>Networking – Developed and implemented secure baseline for network switches. Deployed Cisco Catalyst 9200
-        switches. Maintained network documentation.</li>
-      <li>Patch Management – Utilized WSUS and PDQ to remediate vulnerabilities identified by Rapid7’s InsightVM.
-        Automated patching of third-party applications. Enhanced the organization’s security posture to excel in federal
-        audits, including internal and external Network Vulnerability Assessments.</li>
-      <li>Desktop Support – Supported 120 users across 5 locations. Completed an average of 10-15 tickets/day while
-        maintaining a 100% positive customer service rating.</li>
-    </ul>
-    <div class="heading">DiamondIT <span class="left-align">July 2018 – April 2019</span></div>
-    <div class="subheading">Support Engineer <span class="left-align">Bakersfield, CA</span></div>
-    <ul>
-      <li>In-field and remote support for medium sized business and small city governments with an exceptional average
-        customer survey score of 9.5/10. Ensured 24/7 availability for critical emergency systems such as Smart911 for
-        police department dispatches.</li>
-      <li>Configured WatchGuard firewalls and provided support for internet and VPN connectivity issues.</li>
-    </ul>
-    <div class="heading">BG Origin Group <span class="left-align">January 2017 – June 2018</span></div>
-    <div class="subheading">Technology Consultant <span class="left-align">Hanford, CA</span></div>
-    <ul>
-      <li>In-field and remote support for small business clients. General desktop support, as well as SOHO network
-        setups and running in-wall Ethernet cables.</li>
-    </ul>
-    <div class="heading">Steven Howard Web Development <span class="left-align">March 2016 – Present</span></div>
-    <div class="subheading">Freelance Web Developer <span class="left-align">Visalia, CA</span></div>
-    <ul>
-      <li>Programming, designing, deploying (hosting and domain configuration, email migration), and maintaining
-        (updating CMS and plug-ins, on-call support) websites for small business clients. Example: http:/landrealty.biz,</li>
+      <li><b>AWS</b> Solutions Architect Associate, Cloud Practitioner</li>
+      <li><b>Cisco</b> Certified Network Associate (CCNA)</li>
+      <li><b>HashiCorp</b> Terraform Associate </li>
+      <li><b>CompTIA</b> A+, Network+, Security+, Project+ </li>
     </ul>
 
-    <h2>EDUCATION</h2>
+    <!-- EXPERIENCE -->
+    <h2>EXPERIENCE</h2>
     <hr>
-    <div class="heading">Western Governors University <span class="left-align">Present</span></div>
-    <div class="subheading">B.S. in Information Technology <span class="left-align">Salt Lake City, UT</span></div>
+    <div class="heading">Network Administrator II<span class="left-align">June 2021 – Present</span></div>
+    <div class="subheading">Family HealthCare Network<span class="left-align">Visalia, CA</span></div>
     <ul>
-      <li>70% complete. Expected graduation date: March 2024</li>
+      <li>Network Deployment and Automation – Configured and installed Cisco switches and routers, replacing end-of-life
+        equipment and standing up new worksites. Created Python script to automate the generation of switch
+        configurations. </li>
+      <li>Microsoft 365 – Instrumental in migration to Exchange Online. Designed, built, and maintained organization’s
+        Intranet and business intelligence dashboard in SharePoint. Responsible for initial testing, licensing,
+        deployment, and continued support for all Microsoft 365 applications. </li>
+      <li>Software Deployment – Revolutionized application deployment by fully utilizing PDQ to its full potential,
+        completely automating previously manual overnight application updates. </li>
     </ul>
-    <h2>SKILLS</h2>
-    <hr>
-    <div id="skills">
-      <div><span class="bold">Operating Systems</span> – Windows, Windows Server 2008-2019, MacOS, Ubuntu, iOS, Android</div>
-      <div><span class="bold">Infrastructure</span> – Microsoft 365 (Exchange, SharePoint, Azure Active Directory, Teams, Purview), VMWare
-        vSphere, DNS, DHCP, GPO</div>
-      <div><span class="bold">Networking</span> - Cisco Routing and Switching, Meraki, ISE, CUCM/CCX, Umbrella, AnyConnect, Mitel VoIP</div>
-      <div><span class="bold">Programming</span> – Python, PowerShell, JavaScript, MySQL, HTML/CSS, Batch Scripting, Netmiko, NAPALM,
-        Nornir</div>
-      <div><span class="bold">Security</span> – Sophos, Rapid7 InsightVM, Nessus, AirWatch, IBM MaaS360, DUO</div>
-      <div><span class="bold">Tools</span> – PDQ, mRemoteNG, PRTG, Confluence, ZenDesk, LANSweeper, ManageEngine (NCM, ADManager,
-        ADAudit, ADSelfService Plus), Visio</div>
-      <div><span class="bold">Other</span> – Technical Writing, Root Cause Analysis, Onboarding and Training End-Users</div>
-    </div>
+    <div class="heading">Network Administrator<span class="left-align">May 2019 – May 2021</span></div>
+    <div class="subheading">Valley Republic Bank<span class="left-align">Bakersfield, CA</span></div>
+    <ul>
+      <li>Network Administration – Developed and implemented secure baseline for network switches. Deployed Cisco
+        Catalyst 9200 switches. Created and maintained complete network diagram and supporting documentation.</li>
+      <li>Security Hardening – Utilized WSUS and PowerShell scripts to remediate server and workstation vulnerabilities
+        identified by Rapid7’s InsightVM. Automated patching of third-party applications. Enhanced the organization’s
+        security posture to excel in federal audits, including internal and external network vulnerability assessments.
+      </li>
+      <li>Technical Documentation – Designed and built team knowledge base in Confluence and contributed 50+ articles.
+      </li>
+    </ul>
+    <div class="heading">Technology Consultant<span class="left-align">January 2017 – April 2019</span></div>
+    <div class="subheading">Managed Service Providers (BG Origin Group / DiamondIT)<span class="left-align">Hanford, CA
+        / Bakersfield, CA</span></div>
+    <ul>
+      <li>Network Architect – Built networks ranging from SOHO to Enterprise-grade. Fully implemented networks from
+        initial pitch to implementation. Configured switches, router, firewalls, and ran in-wall Ethernet cables.</li>
+      <li>End-User Support – In-field and remote support for medium sized business and small city governments with an
+        exceptional average customer survey score of 10/10.</li>
+      <li>Disaster Recovery – First responder to crypto-ransomware cases. Restored backups, determined attack vector,
+        and remediated vulnerabilities.</li>
+    </ul>
+
   </div>
+
+  <!-- Download -->
+  <div class="download">
+    <a href="Steven Howard - Resume - 2023.pdf" download="Steven Howard - Resume - 2023.pdf"><button type="button" class="btn"><img src="/images/pdf.png" alt=""><span class="btn-text">Download PDF</span></button></a>
+    <a href="Steven Howard - Resume - 2023.docx" download="Steven Howard - Resume - 2023.docx"><button type="button" class="btn"><img src="/images/docx.png" alt=""><span class="btn-text">Download DOCX</span></button></a>
+  </div>
+
+  <!-- View Count -->
   <div id="view_count_line">
     <div id="view_count_tag">This resume has been viewed <div id="view_count"></div> times</div>
-
   </div>
+
 </body>
 
 </html>

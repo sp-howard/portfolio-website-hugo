@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Network Automation on Steven Howard - Cloud Engineer</title>
+    <link>https://stevenhoward.net/tags/network-automation/</link>
+    <description>Recent content in Network Automation on Steven Howard - Cloud Engineer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 10 Jul 2023 15:20:15 +0900</lastBuildDate><atom:link href="https://stevenhoward.net/tags/network-automation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Open Port Audit</title>
+      <link>https://stevenhoward.net/blogs/open-port-audit/</link>
+      <pubDate>Mon, 10 Jul 2023 15:20:15 +0900</pubDate>
+      
+      <guid>https://stevenhoward.net/blogs/open-port-audit/</guid>
+      <description>NAPALM (Network Automation and Programmability Abstraction Layer with Multivendor support) A Python library that implements a set of functions to interact with different network device Operating Systems using a unified API.</description>
+    </item>
+    
+  </channel>
+</rss>

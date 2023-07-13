@@ -2,10 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://stevenhoward.net/categories/</loc>
+    <loc>https://stevenhoward.net/tags/aws/</loc>
+    <lastmod>2023-07-10T15:20:15+09:00</lastmod>
+  </url><url>
+    <loc>https://stevenhoward.net/blogs/</loc>
+    <lastmod>2023-07-10T15:20:15+09:00</lastmod>
+  </url><url>
+    <loc>https://stevenhoward.net/blogs/cloud-resume-challenge/</loc>
+    <lastmod>2023-07-10T15:20:15+09:00</lastmod>
+  </url><url>
+    <loc>https://stevenhoward.net/tags/iac/</loc>
+    <lastmod>2023-07-10T15:20:15+09:00</lastmod>
+  </url><url>
+    <loc>https://stevenhoward.net/tags/javascript/</loc>
+    <lastmod>2023-07-10T15:20:15+09:00</lastmod>
+  </url><url>
+    <loc>https://stevenhoward.net/tags/network-automation/</loc>
+    <lastmod>2023-07-10T15:20:15+09:00</lastmod>
+  </url><url>
+    <loc>https://stevenhoward.net/blogs/open-port-audit/</loc>
+    <lastmod>2023-07-10T15:20:15+09:00</lastmod>
+  </url><url>
+    <loc>https://stevenhoward.net/tags/python/</loc>
+    <lastmod>2023-07-10T15:20:15+09:00</lastmod>
   </url><url>
     <loc>https://stevenhoward.net/</loc>
+    <lastmod>2023-07-10T15:20:15+09:00</lastmod>
   </url><url>
     <loc>https://stevenhoward.net/tags/</loc>
+    <lastmod>2023-07-10T15:20:15+09:00</lastmod>
+  </url><url>
+    <loc>https://stevenhoward.net/tags/terraform/</loc>
+    <lastmod>2023-07-10T15:20:15+09:00</lastmod>
+  </url><url>
+    <loc>https://stevenhoward.net/categories/</loc>
+  </url><url>
+    <loc>https://stevenhoward.net/tags/ci/cd/</loc>
+  </url><url>
+    <loc>https://stevenhoward.net/tags/html/css/</loc>
   </url>
 </urlset>

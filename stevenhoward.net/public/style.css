@@ -1,8 +1,4 @@
-#hero h2 {
-    font-size: clamp(80px, 8vw, 80px);
-    color: rgb(0, 140, 255) !important;
-}
-
+/* List Bullet Symbol */
 #about ul li::before {
     content: "▸";
     color: var(--primary-color);
@@ -10,37 +6,45 @@
     left: 0px;
 }
 
+/* Lighten font-weight of Project tags */
 #projects .badge {
     font-weight: 400;
 }
 
+/* Style subheading of Certifications section */
 .verify {
     font-style: italic;
     color: var(--text-secondary-color);
     font-size: 1.2rem;
 }
 
+/* Add a little space above the Date Attained and Verification code of each Certification card */
 #achievements .card-text {
     margin-top: 1rem;;
 }
 
-#achievements .card h5 {
-    min-height: 2.5rem;
-}
-
-img.card-img-top {
-    padding: 1rem;
-}
-
-.card-footer, i {
-    font-size: 1.7rem;
-}
-
+/* Enlarge GitHub and LinkedIn Icons under Hero banner */
 #hero a.btn.social-icon {
     font-size: 1.4rem;
 }
 
-.card-body h5 {
-    padding-top: .3rem;
-    padding-bottom: .3rem;
+/* Experience Section - Change Font and Bullet Style */
+
+.experience-content {
+    font-family: 'Open Sans', Trebuchet, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
 }
+
+#experience .experience-container .tab-content .tab-pane ul li::before {
+    content: "▸";
+    color: var(--primary-color);
+    position: absolute;
+    left: 0px;
+  }
+
+  h3, h5, .recent-posts-title {
+    font-family: "Alata", sans-serif;
+  }
+
+b, strong {
+    font-weight: 600;
+  }

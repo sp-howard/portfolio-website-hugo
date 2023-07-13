@@ -1,14 +1,11 @@
-
 /* Default font for body */
 body {
-    /* font-family: "Lora", serif !important; */
-    font-family: "Alata", serif !important;
+    font-family: 'Open Sans', Trebuchet, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 /* secondary font */
 .secondary-font, #secondary-font {
-    /* font-family: "Lora", serif; */
-    font-family: "Roboto", serif;
+    font-family: 'Open Sans', Trebuchet, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 /* primary font */
@@ -18,5 +15,10 @@ body {
 
 /* Default font */
 .default-font, #default-font {
-    font-family: "Roboto", sans-serif;
+    font-family: 'Open Sans', Trebuchet, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
 }
+
+/* Default font */
+/* .default-font, #default-font {
+    font-family: 'Open Sans', Trebuchet, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+} */

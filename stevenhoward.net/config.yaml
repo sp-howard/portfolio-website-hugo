@@ -72,7 +72,7 @@ params:
 
   theme:
     # disableThemeToggle: true
-    # defaultTheme: "light" # dark
+    defaultTheme: "light" # dark
 
   font:
     fontSize: 1rem # default: 1rem
@@ -81,12 +81,12 @@ params:
     textAlign: left # default: left
 
   # color preference
-  # color:
-  #   textColor:
+  color:
+  #   textColor: 
   #   secondaryTextColor:
   #   backgroundColor:
   #   secondaryBackgroundColor:
-  #   primaryColor:
+    primaryColor: '#008CFF'
   #   secondaryColor:
 
   #   darkmode:
@@ -146,7 +146,7 @@ params:
     title: "About Me"
     image: /images/profile.jpg
     content: |-
-      **Hi! I'm Steven**, a lifelong technology enthusiast and an IT professional of 7 years (and counting!). I thrive on new challenges. Wrapping my head around a complex problem, researching solutions, generating a proof of concept, implementing, testing, and documenting... I find peace in trusting the process, knowing that any challenge can be solved with willpower and determination. Whether it's consulting a different resource, or simply taking a walk and returning to the problem at a later point... **No matter the problem, I will find the solution**. 
+      **Hi! I'm Steven**, a lifelong technology enthusiast and an IT professional of 7 years (and counting!). I thrive on new challenges. Wrapping my head around a complex problem, researching solutions, generating a proof of concept, implementing, testing, and documenting... I find peace in trusting the process, knowing that any challenge can be solved with willpower and determination. Whether it's consulting a different resource, or simply taking a walk and returning to the problem at a later point... No matter the problem, **I will find the solution**. 
 
       My journey began as a Web Developer. I dove headlong into the deep waters of software development, and I **fell in love**. The sense of satisfaction I get when fixing a bug that had been eluding me for ages is unparalleled. 
 
@@ -171,19 +171,23 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - job: "Network Administrator"
+      - job: "Network Administrator II"
         company: "Family Healthcare Network"
         companyUrl: "https://www.fhcn.org/"
-        date: "June 202 - Present"
-        years: "2"
+        date: "June 2021 - Present"
+        years: "2+"
         featuredLink:
           enable: false
           name: "View the project"
           url: "https://example.com"
         content: |
-          - **Cisco Switch Configuration and Automation** - Configured and installed Cisco switches and routers, replacing end-of-life equipment, as well as standing up new worksites. Created Python script to automate the generation of switch configurations.
-          - **Microsoft 365** - Instrumental in migration to Exchange Online. Designed, built, and maintained organization's Intranet and business intelligence dashboard in SharePoint. Responsible for initial testing, licensing, deployment, and continued support for all Microsoft 365 applications.
-          - **Software Deployment** - Revolutionized application deployment by fully utilizing PDQ to its full potential, completely automating previously manual overnight application updates.
+          <div class="experience-content">
+
+          - **Network Deployment and Automation** – Configured and installed Cisco switches and routers, replacing end-of-life equipment and standing up new worksites. Created Python script to automate the generation of switch configurations. 
+          - **Microsoft 365** – Instrumental in migration to Exchange Online. Designed, built, and maintained organization’s Intranet and business intelligence dashboard in SharePoint. Responsible for initial testing, licensing, deployment, and continued support for all Microsoft 365 applications. 
+          - **Software Deployment** – Revolutionized application deployment by fully utilizing PDQ to its full potential, completely automating previously manual overnight application updates. 
+
+          </div>
       - job: "Network Administrator"
         company: "Valley Republic Bank"
         companyUrl: "https://www.tcbk.com/"
@@ -196,76 +200,72 @@ params:
           enable: true
           # content: I worked as a software developer for more than one year in Amazon.
         content: |
-          - **Networking** – Developed and implemented secure baseline for network switches. Deployed Cisco Catalyst 9200 switches. Maintained network documentation.
-          - **Patch Managemen**t – Utilized WSUS and PDQ to remediate vulnerabilities identified by Rapid7’s InsightVM. Automated patching of third-party applications. Enhanced the organization’s security posture to excel in federal audits, including internal and external Network Vulnerability Assessments.
-          - **Desktop Support** – Supported 120 users across 5 locations. Completed an average of 10-15 tickets/day while maintaining a 100% positive customer service rating.
-      - job: "Support Engineer"
-        company: "DiamondIT"
-        years: "1"
+          <div class="experience-content">
+
+          - **Network Administration** – Developed and implemented secure baseline for network switches. Deployed Cisco Catalyst 9200 switches. Created and maintained complete network diagram and supporting documentation.
+          - **Security Hardening** – Utilized WSUS and PowerShell scripts to remediate server and workstation vulnerabilities identified by Rapid7’s InsightVM. Automated patching of third-party applications. Enhanced the organization’s security posture to excel in federal audits, including internal and external network vulnerability assessments.
+          - **Technical Documentation** – Designed and built team knowledge base in Confluence and contributed 50+ articles.
+
+          </div>
+      - job: "Technology Consultant"
+        company: "Managed Service Providers"
+        years: "2.5"
         companyUrl: "https://www.diamondit.pro/"
-        date: "July 2018 – April 2019"
+        date: "January 2017 – April 2019"
         info:
           enable: true
         featuredLink:
           enable: false
           url: "https://example.com"
         content: |
-          - In-field and remote support for medium sized business and small city governments with an exceptional average customer survey score of 9.5/10. Ensured 24/7 availability for critical emergency systems such as Smart911 for police department dispatches.
-          - Configured WatchGuard firewalls and provided support for internet and VPN connectivity issues.
+          <div class="experience-content">
 
-      - job: "Technology Consultant"
-        company: "BG Origin Group"
-        companyUrl: "https://bgorigin.com/"
-        date: "June 2017 - Nov 2019"
-        years: "1.5"
-        featuredLink:
-          enable: false
-          url: "https://example.com"
-        content: |
-          - In-field and remote support for small business clients. General desktop support, as well as SOHO network setups and running in-wall Ethernet cables.
+          - **Network Architect** – Built networks ranging from SOHO to Enterprise-grade. Fully implemented networks from initial pitch to implementation. Configured switches, router, firewalls, and ran in-wall Ethernet cables.
+          - **End-User Support** – In-field and remote support for medium sized business and small city governments with an exceptional average customer survey score of 10/10.
+          - **Disaster Recovery** – First responder to crypto-ransomware cases. Restored backups, determined attack vector, and remediated vulnerabilities.
 
-  # Education
-  education:
-    enable: false
+          </div>
+
+
+  # Projects
+  projects:
+    enable: true
     # title: "Custom Name"
-    index: false
     items:
-      - title: "Master of Business Administration"
-        school:
-          name: "University of California, Berkeley"
-          url: "https://example.org"
-        date: "2013 - 2015"
-        GPA: "3.8 out of 5.0"
-        content: |-
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-      - title: "Bachelor of Science in Computer Science"
-        school:
-          name: "Massachusetts Institute of Technology"
-          url: "https://example.org"
-        date: "2009 - 2013"
-        GPA: "3.9 out of 5.0"
-        content: |-
-          I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
-          - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
-          - Face mask detection using a single convolutional neural network.
+      - title: Cloud Resume Challenge
+        content: Static portfolio website hosted on AWS S3, with serverless components including API Gateway, Lambda, and DynamoDB. Also utilized Route53, Amazon Certificate Manager, and CloudFront. Infrastructure was converted to IaC using Terraform, and implemented via CI/CD pipeline using GitHub Actions with Cypress end-to-end testing.
+        image: /images/cloud-resume-diagram.png
+        featured:
+          name: Blog Post
+          link: /blogs/cloud-resume-challenge/
+        badges:
+          - "AWS"
+          - "Terraform"
+          - "IaC"
+          - "CI/CD"
+          - "Python"
+          - "Javascript"
+          - "HTML/CSS"
+        links:
+          #- icon: fa fa-envelope
+          #  url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
+          - icon: fab fa-github
+            url: https://github.com/sp-howard/cloud-resume-back-end
+          #- icon: fab fa-twitter
+          #w  url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
 
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-        featuredLink:
-          enable: true
-          name: "My academic record"
-          url: "https://example.com"
-      - title: "High School"
-        school:
-          name: "Thomas Jefferson High School for Science and Technology."
-          url: "https://example.org"
-        GPA: "4.2 out of 5.0"
-        featuredLink:
-          enable: true
-          url: "https://example.com"
+      - title: Open Port Audit
+        content: Read-only introduction into network automation that utilizes the Python frameworks netmiko, NAPALM, and Nornir, to query network switches for ports without authentication commands configured, and export the results to an Excel workbook that contains an individual worksheet for each switch (50+) in the environment. Utilized NetBox for the device database.  
+        image: /images/cisco.jpg
+        featured:
+          name: Blog Post
+          link: /blogs/open-port-audit/
+        badges:
+          - "Network Automation"
+          - "Python"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/sp-howard/Open-Port-Audit
 
   # Achievements / Certifications
   achievements:
@@ -318,51 +318,12 @@ params:
           NWYHN9P3FCE4YNMM
         url: https://www.certmetrics.com/comptia/public/verification.aspx?code=8CKHZEJGF3EQYE4Z    
         image: images/certs/comptia-a-ce-certification.1.png
-  # projects
-  projects:
-    enable: true
-    # title: "Custom Name"
-    items:
-      - title: Cloud Resume Challenge
-        content: Static portfolio website hosted on AWS S3, with serverless components including API Gateway, Lambda, and DynamoDB. Also utilized Route53, Amazon Certificate Manager, and CloudFront. Infrastructure was converted to IaC using Terraform, and implemented via CI/CD pipeline using GitHub Actions with Cypress end-to-end testing.
-        image: /images/crc-diagram.png
-        featured:
-          name: Blog Post
-          link: /blogs/cloud-resume-challenge/
-        badges:
-          - "AWS"
-          - "Terraform"
-          - "IaC"
-          - "CI/CD"
-          - "Python"
-          - "Javascript"
-          - "HTML/CSS"
-        links:
-          #- icon: fa fa-envelope
-          #  url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
-          - icon: fab fa-github
-            url: https://github.com/sp-howard/cloud-resume-back-end
-          #- icon: fab fa-twitter
-          #w  url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
 
-      - title: Open Port Audit
-        content: Read-only introduction into network automation that utilizes the Python frameworks netmiko, NAPALM, and Nornir, to query network switches for ports without authentication commands configured, and export the results to an Excel workbook that contains an individual worksheet for each switch (50+) in the environment. Utilized NetBox for the device database.  
-        image: /images/cisco.jpg
-        featured:
-          name: Blog Post
-          link: /blogs/open-port-audit/
-        badges:
-          - "Network Automation"
-          - "Python"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/sp-howard/Open-Port-Audit
-
-  #Contact
+  # Contact
   contact:
     enable: true
     # title: "Custom Name"
-    content: Embarking on a new Cloud adventure? Connect with me and we'll explore together!
+    content: Embarking on a new Cloud adventure? Let me guide you on the path to operational excellence!
     email: stevenphoward@gmail.com
     btnName: Email Me
     formspree:
@@ -371,6 +332,7 @@ params:
       emailCaption: "Enter your email address"
       messageCaption: "Enter your message here"
 
+  # Footer
   footer:
     recentPosts:
       path: "blogs"
@@ -409,3 +371,4 @@ params:
     article: "Jan 2, 2006"
     articleList: "Jan 2, 2006"
     articleRecent: "Jan 2, 2006"
+

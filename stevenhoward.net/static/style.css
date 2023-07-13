@@ -28,8 +28,23 @@
     font-size: 1.4rem;
 }
 
-#single {
-    padding: 30px 0;
-    line-height: 1.7em;
-    font-size: 17px;
+/* Experience Section - Change Font and Bullet Style */
+
+.experience-content {
+    font-family: 'Open Sans', Trebuchet, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
 }
+
+#experience .experience-container .tab-content .tab-pane ul li::before {
+    content: "▸";
+    color: var(--primary-color);
+    position: absolute;
+    left: 0px;
+  }
+
+  h3, h5, .recent-posts-title {
+    font-family: "Alata", sans-serif;
+  }
+
+b, strong {
+    font-weight: 600;
+  }

@@ -9,7 +9,7 @@ body {
   margin-top: 2em;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 2em;
+  margin-bottom: 1.5em;
   background-color: white;
   padding: 3em;
   box-shadow: 0px 0px 0.5em;
@@ -17,7 +17,7 @@ body {
 
 h1 {
   text-align: center;
-  font-size: 26pt;
+  font-size: 30pt;
   line-height: 0;
 }
 
@@ -37,6 +37,12 @@ hr {
   padding-bottom: 0.2em;
 }
 
+#title-subheading-2 {
+  text-align: center;
+  font-size: 16pt;
+  padding-bottom: 0.2em;
+}
+
 .windings {
   font-family: wingdings;
 }
@@ -46,7 +52,7 @@ hr {
 }
 
 .subheading {
-  font-weight: bold;
+  /* font-weight: bold; */
   font-style: italic;
 }
 
@@ -64,6 +70,10 @@ li {
   padding-bottom: 0.3em;
 }
 
+a {
+  color: black;
+}
+
 .certnum {
   color: #999;
 }
@@ -73,6 +83,7 @@ p {
 }
 #certs {
   line-height: 1.1em;
+  column-count: 2;
 }
 
 #skills {
@@ -95,4 +106,25 @@ p {
   margin-bottom: 1.5rem;
   padding: 0.25rem;
   font-size: 14pt;
+}
+
+.download {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-bottom: 1.25em;
+}
+
+button.btn > img {
+  max-height: 30px;
+}
+
+button.btn {
+  padding: 5px;
+  cursor: pointer;
+}
+
+.btn-text {
+  padding: 5px;
+  vertical-align: 9px;
 }

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Terraform on Steven Howard - Cloud Engineer</title>
+    <link>https://stevenhoward.net/tags/terraform/</link>
+    <description>Recent content in Terraform on Steven Howard - Cloud Engineer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 10 Jul 2023 15:20:15 +0900</lastBuildDate><atom:link href="https://stevenhoward.net/tags/terraform/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cloud Resume Challenge</title>
+      <link>https://stevenhoward.net/blogs/cloud-resume-challenge/</link>
+      <pubDate>Mon, 10 Jul 2023 15:20:15 +0900</pubDate>
+      
+      <guid>https://stevenhoward.net/blogs/cloud-resume-challenge/</guid>
+      <description>Introduction The Cloud. It&amp;rsquo;s referenced constantly in tech circles. It&amp;rsquo;s the future, and the future is now. But me being a general on-prem enterprise network guy, I couldn&amp;rsquo;t really tell you what the Cloud was outside of &amp;ldquo;someone else&amp;rsquo;s computer,&amp;rdquo; or the place my iPhone&amp;rsquo;s photo library is backed up to.
+I began my Cloud journey with the AWS Cloud Practitioner Certification. I was overwhelmed with the flood of cloud services with strange names like Kineses, DynamoDB, Aurora, and the list goes on&amp;hellip; I felt that 80% of that exam consisted of linking the existing IT concepts I was familiar with to those strange marketing terms Amazon chose to name their services.</description>
+    </item>
+    
+  </channel>
+</rss>
